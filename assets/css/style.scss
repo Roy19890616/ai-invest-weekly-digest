@@ -1,0 +1,63 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* 深色主題覆寫：比照 Artifact 週報網頁版配色 */
+
+body {
+  background: #14181B;
+  color: #E4E8E9;
+  font-size: 1.16rem;
+  line-height: 1.85;
+}
+
+.page-header {
+  background: #10201D;
+  background-image: linear-gradient(120deg, #0F2E29, #1C2226);
+}
+
+.project-name { color: #E4E8E9; }
+.project-tagline { color: #97A2A8; }
+
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: #4FB3A5;
+  }
+
+  h2 {
+    border-bottom: 1px solid #303A3F;
+    padding-bottom: 0.4rem;
+  }
+
+  a { color: #6FBED8; }
+
+  blockquote {
+    color: #97A2A8;
+    border-left: 0.3rem solid #303A3F;
+  }
+
+  code {
+    background-color: #1C2226;
+    color: #E4E8E9;
+  }
+
+  pre {
+    background-color: #1C2226;
+    border-color: #303A3F;
+    color: #E4E8E9;
+  }
+
+  table {
+    th, td {
+      border-color: #303A3F;
+    }
+    th { background-color: #1C2226; }
+  }
+
+  hr { background-color: #303A3F; }
+}
+
+.site-footer {
+  border-top: 1px solid #303A3F;
+  .site-footer-owner, .site-footer-credits { color: #97A2A8; }
+}
